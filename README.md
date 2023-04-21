@@ -54,7 +54,7 @@ powershell -ExecutionPolicy Bypass -command "& { . .\TBPin.ps1; Add-TaskbarPin (
 ##### Pin Notepad to Taskbar Windows Command Processor (cmd.exe) (Load Script From GitHub Raw URL):
 
 ```powershell
-powershell -ExecutionPolicy Bypass -command "& { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/DanysysTeam/PS-TBPin/master/TBPin.ps1'));Add-TaskbarPin '%windir%\Notepad.exe' }"
+powershell -ExecutionPolicy Bypass -command "& { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/DanysysTeam/PS-TBPin/main/TBPin.ps1'));Add-TaskbarPin '%windir%\Notepad.exe' }"
 
 ```
 
